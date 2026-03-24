@@ -14,9 +14,9 @@
 	{#await import('./Calendar/Calendar.svelte') then { default: Calendar }}
 		<Calendar />
 	{/await}
-{:else if app_id === 'vscode'}
-	{#await import('./VSCode/VSCode.svelte') then { default: VSCode }}
-		<VSCode {is_being_dragged} />
+{:else if app_id === "hicode"}
+	{#await import("./Hicode/HiCode.svelte") then { default: Hicode }
+		<Hicode>
 	{/await}
 {:else if app_id === 'calculator'}
 	{#await import('./Calculator/Calculator.svelte') then { default: Calculator }}
