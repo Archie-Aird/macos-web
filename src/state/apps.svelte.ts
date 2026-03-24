@@ -12,7 +12,7 @@ export const apps = $state({
 		appstore: false,
 		calendar: false,
 		// 'system-preferences': false,
-
+		hicode: true,
 		'purus-twitter': false,
 		'view-source': true,
 
